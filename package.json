@@ -1,0 +1,37 @@
+{
+  "name": "duotoned",
+  "displayName": "Duotoned",
+  "description": "Duotoned is an opinionated version of the duotone syntax for vscode",
+  "license": "MIT",
+  "version": "0.1.0",
+  "publisher": "TobiasTimm",
+  "preview": true,
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "theme",
+    "duotone",
+    "syntax",
+    "dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiastimm/duotoned.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tobiastimm/duotoned/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Duotoned",
+        "uiTheme": "vs-dark",
+        "path": "./themes/duotoned.json"
+      }
+    ]
+  }
+}
