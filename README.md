@@ -26,7 +26,6 @@ Select the theme and you are ready to go!
 1.  Click Install
 1.  Click Reload
 1.  File > Preferences > Color Theme > Duotoned
-1.  Optional: Use the settings below for a better and more minimalistic experience
 
 ## Feedback / Issues
 
