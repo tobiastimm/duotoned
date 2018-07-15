@@ -1365,7 +1365,10 @@
     },
     {
       "name": "Other attribute names",
-      "scope": "entity.other.attribute-name.js.jsx",
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.js.jsx"
+      ],
       "settings": {
         "foreground": "#ffcc99"
       }
