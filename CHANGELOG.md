@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.1.2
+
+- Fix for ts colors
+- GraphQL support
+
 ## 0.1.1
 
 - Fix jsx attributes in js

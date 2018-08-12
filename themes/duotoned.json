@@ -97,7 +97,7 @@
     "notifications.foreground": "#d4d4d4",
     "notificationCenterHeader.foreground": "#d4d4d4",
     "extensionButton.prominentForeground": "#d4d4d4",
-    "extensionButton.prominentBackground": "#9b87fd",
+    "extensionButton.prominentBackground": "#6a51e6",
     "extensionButton.prominentHoverBackground": "#a496e4",
     "editorGutter.addedBackground": "#99C794",
     "editorGutter.deletedBackground": "#E15A60",
@@ -121,6 +121,114 @@
       "settings": {
         "foreground": "#6c6783",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "source.js variable.other.constant.js",
+        "source.js.jsx variable.other.constant.js.jsx",
+        "source.ts variable.other.constant.ts",
+        "source.ts.tsx variable.other.constant.ts.tsx"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
+      "name": "HTML / JSX - Assignments #2",
+      "scope": [
+        "meta.tag.attributes.js meta.var.expr.js keyword.operator.assignment.js",
+        "meta.tag.attributes.js.jsx meta.var.expr.js.jsx keyword.operator.assignment.js.jsx",
+        "meta.tag.attributes.tsx meta.var.expr.tsx keyword.operator.assignment.tsx"
+      ],
+      "settings": {
+        "foreground": "#ffcc99"
+      }
+    },
+    {
+      "name": "HTML / JSX - Assignments",
+      "scope": [
+        "meta.tag.attributes.js keyword.operator.assignment.js",
+        "meta.tag.attributes.js.jsx keyword.operator.assignment.js.jsx",
+        "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
+        "meta.tag.any.html"
+      ],
+      "settings": {
+        "foreground": "#eeebff"
+      }
+    },
+    {
+      "name": "graphql",
+      "scope": [
+        "source.js entity.name.function.tagged-template.js",
+        "source.js.jsx entity.name.function.tagged-template.js.jsx",
+        "source.ts entity.name.function.tagged-template.ts",
+        "source.tsx entity.name.function.tagged-template.tsx"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
+      "name": "graphql - functions",
+      "scope": [
+        "source.js entity.name.function.graphql",
+        "source.js.jsx entity.name.function.graphql",
+        "source.ts entity.name.function.graphql",
+        "source.tsx entity.name.function.graphql",
+        "entity.name.function.graphql"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
+      "name": "graphql - types",
+      "scope": [
+        "source.js support.type.builtin.graphql",
+        "source.js.jsx support.type.builtin.graphql",
+        "source.ts support.type.builtin.graphql",
+        "source.tsx support.type.builtin.graphql",
+        "keyword.operation.graphql",
+        "support.type.builtin.graphql"
+      ],
+      "settings": {
+        "foreground": "#ffcc99",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "graphql - variables",
+      "scope": [
+        "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
+      "name": "graphql - variable function",
+      "scope": [
+        "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#eeebff"
+      }
+    },
+    {
+      "name": "GraphQL - ENF",
+      "scope": ["entity.name.function.directive.graphql"],
+      "settings": {
+        "foreground": "#ffa852"
       }
     },
     {
@@ -978,8 +1086,6 @@
         "meta.class meta.function-call variable.function.tsx",
         "source.ts keyword.control.loop.ts",
         "source.tsx keyword.control.loop.tsx",
-        "storage.type.function.arrow.ts",
-        "storage.type.function.arrow.tsx",
         "source.ts meta.interface.ts entity.name.type.interface.ts",
         "source.tsx meta.interface.tsx entity.name.type.interface.tsx",
         "source.ts meta.type.declaration.ts entity.name.type.ts",
