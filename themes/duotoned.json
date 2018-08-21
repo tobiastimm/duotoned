@@ -110,9 +110,14 @@
     "editorOverviewRuler.infoForeground": "#6f7899",
     "gitDecoration.modifiedResourceForeground": "#9b87fd",
     "gitDecoration.addedResourceForgeround": "#99C794",
-    "gitDecoration.deletedResourceForeground": "#E15A60",
-    "gitDecoration.untrackedResourceForeground": "#9da5b4",
-    "gitDecoration.conflictingResourceForeground": "#E15A60"
+    "gitDecoration.deletedResourceForeground": "#6c6783",
+    "gitDecoration.untrackedResourceForeground": "#E15A60",
+    "gitDecoration.conflictingResourceForeground": "#E15A60",
+    "gitDecoration.ignoredResourceForeground": "#6c6783",
+    "breadcrumb.foreground": "#c0c5cd",
+    "breadcrumb.focusForeground": "#eeebff",
+    "breadcrumb.activeSelectionForeground": "#9b87fd",
+    "breadcrumbPicker.background": "#1A1A27"
   },
   "tokenColors": [
     {
@@ -124,12 +129,36 @@
       }
     },
     {
+      "name": "Support Variable Property",
+      "scope": [
+        "support.variable.property.js",
+        "support.variable.property.js.jsx",
+        "support.variable.property.ts",
+        "support.variable.property.tsx",
+        "support.variable.property.coffee",
+        "source.js support.variable.property",
+        "source.js.jsx support.variable.property",
+        "source.ts support.variable.property",
+        "source.tsx support.variable.property",
+        "source.coffee support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#ffa852"
+      }
+    },
+    {
       "name": "Constants",
       "scope": [
-        "source.js variable.other.constant.js",
-        "source.js.jsx variable.other.constant.js.jsx",
-        "source.ts variable.other.constant.ts",
-        "source.ts.tsx variable.other.constant.ts.tsx"
+        // "source.js variable.other.constant.js",
+        // "source.js.jsx variable.other.constant.js.jsx",
+        // "source.ts variable.other.constant.ts",
+        // "source.ts.tsx variable.other.constant.ts.tsx",
+        // "source.coffee variable.other.constant.coffee",
+        "meta.block.js variable.other.constant.property.js",
+        "meta.block.js.jsx variable.other.constant.property.js.jsx",
+        "meta.block.ts variable.other.constant.property.ts",
+        "meta.block.tsx variable.other.constant.property.tsx",
+        "meta.block.coffee variable.other.constant.property.coffee"
       ],
       "settings": {
         "foreground": "#9b87fd"
@@ -164,7 +193,8 @@
         "source.js entity.name.function.tagged-template.js",
         "source.js.jsx entity.name.function.tagged-template.js.jsx",
         "source.ts entity.name.function.tagged-template.ts",
-        "source.tsx entity.name.function.tagged-template.tsx"
+        "source.tsx entity.name.function.tagged-template.tsx",
+        "source.coffee entity.name.function.tagged-template.coffee"
       ],
       "settings": {
         "foreground": "#9b87fd"
@@ -177,6 +207,7 @@
         "source.js.jsx entity.name.function.graphql",
         "source.ts entity.name.function.graphql",
         "source.tsx entity.name.function.graphql",
+        "source.coffee entity.name.function.graphql",
         "entity.name.function.graphql"
       ],
       "settings": {
@@ -190,6 +221,7 @@
         "source.js.jsx support.type.builtin.graphql",
         "source.ts support.type.builtin.graphql",
         "source.tsx support.type.builtin.graphql",
+        "source.coffee support.type.builtin.graphql",
         "keyword.operation.graphql",
         "support.type.builtin.graphql"
       ],
@@ -205,6 +237,7 @@
         "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
         "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
         "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.coffee meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
         "meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
@@ -218,6 +251,7 @@
         "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
         "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
         "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.coffee meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
         "meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
@@ -449,13 +483,40 @@
       }
     },
     {
+      "name": "Keyword - Coffee",
+      "scope": [
+        "source.coffee keyword",
+        "storage.type.coffee",
+        "storage.type.function.coffee",
+        "storage.modifier.coffee",
+        "meta.type.flowtype.coffee support.type.type.flowtype.coffee",
+        "variable.other.flowtype.coffee",
+        "storage.type.extends.coffee",
+        "storage.type.function.coffee",
+        "storage.type.class.coffee",
+        "support.type.object.module.coffee",
+        "string.regexp.coffee keyword",
+        "constant.language.import-export-all.coffee",
+        "source.coffee meta.group.braces.curly.coffee keyword.other.substitution",
+        "keyword.operator",
+        "source.coffee meta.class.coffee meta.method.declaration.coffee storage.type.property.coffee",
+        "source.coffee meta.class.coffee meta.method.declaration.coffee storage.modifier.async.coffee",
+        "source.coffee meta.class.coffee meta.method.declaration.coffee meta.block.coffee meta.function-call.coffee variable.language.super.coffee"
+      ],
+      "settings": {
+        "foreground": "#ffcc99",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Block",
       "scope": [
         "keyword.operator.type.annotation",
         "meta.brace.round",
         "punctuation",
         "meta.brace.curly.graphql",
-        "meta.brace.square"
+        "meta.brace.square",
+        "meta.brace.curly.coffee"
       ],
       "settings": {
         "foreground": "#6c6783"
@@ -690,12 +751,30 @@
       }
     },
     {
+      "name": "Function Call - Coffee",
+      "scope": [
+        "source.coffee support.function",
+        "support.function.coffee",
+        "variable.function.coffee",
+        "meta.function-call.coffee entity.name.function.coffee",
+        "meta.method-call.static.coffee entity.name.function.coffee",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.coffee",
+        "variable.function.constructor.coffee",
+        "constant.language.import-export-all.coffee",
+        "keyword.operator.arithmetic.coffee"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
       "name": "Import / Export - all",
       "scope": [
         "constant.language.import-export-all.js",
         "constant.language.import-export-all.js.jsx",
         "constant.language.import-export-all.ts",
-        "constant.language.import-export-all.tsx"
+        "constant.language.import-export-all.tsx",
+        "constant.language.import-export-all.coffee"
       ],
       "settings": {
         "foreground": "#eeebff"
@@ -1044,13 +1123,31 @@
       }
     },
     {
+      "name": "Function/Class Name - Coffee",
+      "scope": [
+        "meta.class.coffee entity.name.class",
+        "meta.class.coffee entity.name.type.class",
+        "meta.class meta.function-call variable.function.coffee",
+        "source.coffee keyword.control.loop.coffee",
+        "storage.type.function.arrow.coffee",
+        "tag.decorator.coffee entity.name.tag.coffee",
+        "source.coffee meta.interface.coffee entity.name.type.interface.coffee",
+        "source.coffee meta.type.declaration.coffee entity.name.type.coffee",
+        "source.coffee meta.definition.function.coffee entity.name.function.coffee"
+      ],
+      "settings": {
+        "foreground": "#EBEBFF"
+      }
+    },
+    {
       "name": "Function/Class Name #2 - JavaScript",
       "scope": [
         "punctuation.decorator",
         "entity.name.function.js",
         "entity.name.function.js.jsx",
         "entity.name.function.ts",
-        "entity.name.function.tsx"
+        "entity.name.function.tsx",
+        "entity.name.function.coffee"
       ],
       "settings": {
         "foreground": "#9b87fd"
@@ -1063,6 +1160,7 @@
         "storage.type.function.arrow.js.jsx",
         "storage.type.function.arrow.ts",
         "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.coffee",
         "keyword.operator.assignment",
         "keyword.operator.comparison"
       ],
@@ -1172,6 +1270,19 @@
         "source.js.jsx meta.export.default.js.jsx keyword.control.default.js.jsx",
         "keyword.control.switch.js",
         "keyword.control.switch.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#ffcc99"
+      }
+    },
+    {
+      "name": "Control Flow - Coffee",
+      "scope": [
+        "keyword.control.flow.coffee",
+        "keyword.control.trycatch.coffee",
+        "source.coffee meta.group.braces.curly.coffee keyword.control.loop.coffee",
+        "source.coffee meta.export.default.coffee keyword.control.default.coffee",
+        "keyword.control.switch.coffee"
       ],
       "settings": {
         "foreground": "#ffcc99"
@@ -1296,6 +1407,13 @@
         "keyword.operator.logical.js",
         "keyword.operator.logical.js.jsx"
       ],
+      "settings": {
+        "foreground": "#ffcc99"
+      }
+    },
+    {
+      "name": "Logic - Coffee",
+      "scope": ["keyword.operator.logical.coffee"],
       "settings": {
         "foreground": "#ffcc99"
       }
