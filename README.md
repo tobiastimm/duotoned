@@ -3,9 +3,7 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/TobiasTimm.duotoned.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.duotoned)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/TobiasTimm.duotoned.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.duotoned)
 
-**Duotoned** is an opinionated version of the duotone syntax for vscode.
-
-This theme is still very WIP. The only supported language is JavaScript at the moment.
+**Duotoned** is an opinionated version of the DuoTone syntax for vscode.
 
 Feel free to add your favourite language via a PR.
 
