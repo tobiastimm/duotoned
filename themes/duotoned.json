@@ -23,7 +23,7 @@
     "editorGroup.emptyBackground": "#181A1F",
     "editorGroup.border": "#181A1F",
     "editorGroupHeader.tabsBorder": "#282c35",
-    "editorGutter.background": "#282c35",
+    "editorGutter.background": "#272734",
     "editorError.foreground": "#E15A60",
     "editorMarkerNavigation.background": "#21252b",
     "editorRuler.foreground": "#abb2bf26",
@@ -129,8 +129,28 @@
       }
     },
     {
+      "name": "Meta object literal key",
+      "scope": [
+        "source.js meta.object-literal.key.js",
+        "source.js.jsx meta.object-literal.key.js.jsx",
+        "source.ts meta.object-literal.key.ts",
+        "source.tsx meta.object-literal.key.tsx",
+        "source.js variable.object.property.js",
+        "source.js.jsx variable.object.property.js.jsx",
+        "source.ts variable.object.property.ts",
+        "source.tsx variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
       "name": "Support Variable Property",
       "scope": [
+        // "source.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.object.js",
+        // "source.js.jsx meta.var.expr.js.jsx meta.objectliteral.js.jsx meta.object.member.js.jsx variable.other.object.js.jsx",
+        // "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.object.ts",
+        // "source.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.object.tsx",
         "support.variable.property.js",
         "support.variable.property.js.jsx",
         "support.variable.property.ts",
@@ -395,7 +415,11 @@
         "source.ts meta.type.declaration.ts meta.type.parameters.ts entity.name.type.ts",
         "source.tsx meta.type.declaration.tsx meta.type.parameters.tsx entity.name.type.tsx",
         "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
-        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx"
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.var.expr.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.var.expr.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.var.expr.ts meta.arrow.ts meta.return.type.arrow.ts entity.name.type.ts",
+        "source.tsx meta.var.expr.tsx meta.arrow.tsx meta.return.type.arrow.tsx entity.name.type.tsx"
       ],
       "settings": {
         "foreground": "#EBEBFF"
@@ -747,7 +771,7 @@
         "keyword.operator.arithmetic.js.jsx"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#8b77eb"
       }
     },
     {
@@ -764,7 +788,7 @@
         "keyword.operator.arithmetic.coffee"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -789,7 +813,7 @@
         "keyword.operator.arithmetic.go"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -820,7 +844,7 @@
         "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -839,7 +863,7 @@
         "meta.function-call.php support.function.construct.php"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -849,7 +873,7 @@
         "keyword.operator.arithmetic.shell"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -874,14 +898,15 @@
         "storage.modifier.import.java variable.language.wildcard.java"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
       "name": "JSON",
       "scope": ["punctuation.definition.string", "string.quoted.double.json"],
       "settings": {
-        "foreground": "#A8A8E6"
+        // "foreground": "#A8A8E6"
+        "foreground": "#ffba76"
       }
     },
     {
@@ -1028,7 +1053,7 @@
         "storage.modifier.import.cs variable.language.wildcard.cs"
       ],
       "settings": {
-        "foreground": "#9b87fd"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -1093,7 +1118,8 @@
         "text.html.markdown markup.inline.raw.string.markdown"
       ],
       "settings": {
-        "foreground": "#A8A8E6"
+        // "foreground": "#A8A8E6"
+        "foreground": "#ffba76"
       }
     },
     {
@@ -1489,7 +1515,8 @@
         "punctuation.definition.string.template.end"
       ],
       "settings": {
-        "foreground": "#ffcc99"
+        // "foreground": "#ffcc99"
+        "foreground": "#6a51e6"
       }
     },
     {
@@ -1512,9 +1539,10 @@
     },
     {
       "name": "String",
-      "scope": ["string.quoted", "string.interpolated", "string.template"],
+      "scope": ["string.quoted", "string.interpolated"],
       "settings": {
-        "foreground": "#A8A8E6"
+        // "foreground": "#A8A8E6"
+        "foreground": "#ffba76"
       }
     },
     {
