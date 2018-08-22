@@ -17,7 +17,6 @@
     "dropdown.foreground": "#eeebff",
     "debugToolBar.background": "#6a51e6",
     "editor.background": "#272734",
-    // "editor.foreground": "#d4d4d4",
     "editor.foreground": "#eeebff",
     "editorCursor.foreground": "#b6bcc4",
     "editorGroup.emptyBackground": "#181A1F",
@@ -53,8 +52,8 @@
     "statusBar.foreground": "#9da5b4",
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBar.noFolderBackground": "#21252B",
-    "statusBar.debuggingBackground": "#a496e4",
-    "statusBar.debuggingBorder": "#a496e4",
+    "statusBar.debuggingBackground": "#6a51e6",
+    "statusBar.debuggingBorder": "#6a51e6",
     "statusBar.debuggingForeground": "#eeebff",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveForeground": "#6B717D",
@@ -129,6 +128,13 @@
       }
     },
     {
+      "name": "HTML - Text",
+      "scope": ["text.html.basic"],
+      "settings": {
+        "foreground": "#6c6783"
+      }
+    },
+    {
       "name": "Meta object literal key",
       "scope": [
         "source.js meta.object-literal.key.js",
@@ -147,10 +153,6 @@
     {
       "name": "Support Variable Property",
       "scope": [
-        // "source.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.object.js",
-        // "source.js.jsx meta.var.expr.js.jsx meta.objectliteral.js.jsx meta.object.member.js.jsx variable.other.object.js.jsx",
-        // "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.object.ts",
-        // "source.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.object.tsx",
         "support.variable.property.js",
         "support.variable.property.js.jsx",
         "support.variable.property.ts",
@@ -169,11 +171,6 @@
     {
       "name": "Constants",
       "scope": [
-        // "source.js variable.other.constant.js",
-        // "source.js.jsx variable.other.constant.js.jsx",
-        // "source.ts variable.other.constant.ts",
-        // "source.ts.tsx variable.other.constant.ts.tsx",
-        // "source.coffee variable.other.constant.coffee",
         "meta.block.js variable.other.constant.property.js",
         "meta.block.js.jsx variable.other.constant.property.js.jsx",
         "meta.block.ts variable.other.constant.property.ts",
@@ -771,7 +768,7 @@
         "keyword.operator.arithmetic.js.jsx"
       ],
       "settings": {
-        "foreground": "#8b77eb"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -788,7 +785,7 @@
         "keyword.operator.arithmetic.coffee"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -813,7 +810,7 @@
         "keyword.operator.arithmetic.go"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -844,7 +841,7 @@
         "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -863,7 +860,7 @@
         "meta.function-call.php support.function.construct.php"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -873,7 +870,7 @@
         "keyword.operator.arithmetic.shell"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -898,7 +895,7 @@
         "storage.modifier.import.java variable.language.wildcard.java"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -932,7 +929,7 @@
         "source.stylus entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
-        "foreground": "#6a51e6",
+        "foreground": "#846BFF",
         "fontStyle": "italic"
       }
     },
@@ -1053,7 +1050,7 @@
         "storage.modifier.import.cs variable.language.wildcard.cs"
       ],
       "settings": {
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
@@ -1516,7 +1513,7 @@
       ],
       "settings": {
         // "foreground": "#ffcc99"
-        "foreground": "#6a51e6"
+        "foreground": "#846BFF"
       }
     },
     {
