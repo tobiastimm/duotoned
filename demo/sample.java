@@ -1,9 +1,11 @@
 import java.io.*;
 import java.util.*;
 
-/** Causes a compilation error due to an unhandled Exception
+/**
+ * Causes a compilation error due to an unhandled Exception
  */
-public abstract class KeyboardReaderError throws Exception {
+public abstract class KeyboardReaderError throws Exception
+{
 
   public static void main (String[] args, String test, Map<String,String> bla) { // throws java.io.IOException
 
