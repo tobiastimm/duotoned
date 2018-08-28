@@ -69,7 +69,7 @@
     "list.hoverForeground": "#c0c5cd",
     "list.highlightForeground": "#a496e4",
     "panel.background": "#272734",
-    "panel.border": "#272734",
+    "panel.border": "#181A1F",
     "scrollbar.shadow": "#282c35",
     "scrollbarSlider.activeBackground": "#6a51e675",
     "scrollbarSlider.background": "#6a51e660",
@@ -78,7 +78,7 @@
     "editorGroupHeader.tabsBackground": "#1c1f26",
     "editorGroup.dropBackground": "#1c1f26",
     "tab.border": "#1c1f26",
-    "tab.activeBackground": "#2b303b",
+    "tab.activeBackground": "#272734",
     "tab.inactiveBackground": "#1c1f26",
     "widget.shadow": "#282c35",
     "pickerGroup.foreground": "#a496e4",
@@ -128,10 +128,45 @@
       }
     },
     {
-      "name": "HTML - Text",
-      "scope": ["text.html.basic"],
+      "name": "Reason - Types",
+      "scope": [
+        "source.reason keyword.other",
+        "source.reason storage.type",
+        "source.reason support.class entity.name.class"
+      ],
       "settings": {
-        "foreground": "#6c6783"
+        "foreground": "#ffcc99",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Reason - markup",
+      "scope": [
+        "source.reason markup.inserted constant.language support.property-value"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
+      "name": "Reason - Function / Class",
+      "scope": ["source.reason support.class entity.name.class"],
+      "settings": {
+        "foreground": "#EBEBFF"
+      }
+    },
+    {
+      "name": "Reason - String",
+      "scope": ["source.reason string.double"],
+      "settings": {
+        "foreground": "#ffa852"
+      }
+    },
+    {
+      "name": "Reason - Control",
+      "scope": ["source.reason keyword.control.less"],
+      "settings": {
+        "foreground": "#ffcc99"
       }
     },
     {
@@ -1707,6 +1742,7 @@
         "keyword.operator.ternary.js.jsx",
         "keyword.operator.ternary.ts",
         "keyword.operator.ternary.tsx",
+        "source.reason keyword.operator",
         "source.js meta.group.regexp keyword.operator",
         "source.js.jsx meta.group.regexp keyword.operator",
         "source.ts meta.group.regexp keyword.operator",
