@@ -3,7 +3,7 @@
   "displayName": "Duotoned",
   "description": "Duotoned is an opinionated version of the duotone syntax for vscode",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "TobiasTimm",
   "preview": false,
   "engines": {
