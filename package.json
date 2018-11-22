@@ -31,6 +31,11 @@
         "label": "Duotoned",
         "uiTheme": "vs-dark",
         "path": "./themes/duotoned.json"
+      },
+      {
+        "label": "Duotoned - darkSEA",
+        "uiTheme": "vs-dark",
+        "path": "./themes/duotoned-darksea.json"
       }
     ]
   }

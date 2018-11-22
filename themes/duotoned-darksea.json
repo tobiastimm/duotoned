@@ -1,0 +1,1789 @@
+{
+  "name": "Duotoned - darkSEA",
+  "author": "Tobias Timm",
+  "maintainers": ["Tobias Timm <tbs.timm@gmail.com>"],
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#101922",
+    "activityBar.foreground": "#d6e9ff",
+    "activityBarBadge.background": "#32ae85",
+    "activityBarBadge.foreground": "#d6e9ff",
+    "badge.background": "#32ae85",
+    "badge.foreground": "#d6e9ff",
+    "button.background": "#32ae85",
+    "button.hoverBackground": "#34febb",
+    "button.foreground": "#d6e9ff",
+    "dropdown.background": "#030C3050",
+    "dropdown.foreground": "#d6e9ff",
+    "debugToolBar.background": "#32ae85",
+    "editor.background": "#1d262f",
+    "editor.foreground": "#d6e9ff",
+    "editorCursor.foreground": "#b6bcc4",
+    "editorGroup.emptyBackground": "#181A1F",
+    "editorGroup.border": "#181A1F",
+    "editorGroupHeader.tabsBorder": "#282c35",
+    "editorGutter.background": "#1d262f",
+    "editorError.foreground": "#E15A60",
+    "editorMarkerNavigation.background": "#21252b",
+    "editorRuler.foreground": "#abb2bf26",
+    "editor.lineHighlightBackground": "#65737e30",
+    "editor.selectionBackground": "#32ae8575",
+    "editor.selectionHighlightBackground": "#32ae8575",
+    "editor.findMatchHighlightBackground": "#42675a",
+    "editor.wordHighlightBackground": "#32ae8575",
+    "editor.wordHighlightStrongBackground": "#abb2bf26",
+    "editorIndentGuide.background": "#3B4048",
+    "editorLineNumber.foreground": "#495162",
+    "editorWhitespace.foreground": "#3B4048",
+    "editorHoverWidget.background": "#232830",
+    "editorHoverWidget.border": "#181A1F",
+    "editorSuggestWidget.background": "#21252B",
+    "editorSuggestWidget.border": "#181A1F",
+    "editorSuggestWidget.selectedBackground": "#2c313a",
+    "editorWidget.background": "#21252B",
+    "input.background": "#1c1f26",
+    "input.border": "#32ae8575",
+    "peekViewEditor.matchHighlightBackground": "#29244b",
+    "sideBarSectionHeader.background": "#1c1f26",
+    "sideBar.background": "#101922",
+    "sideBar.border": "#232830",
+    "sideBar.foreground": "#d6e9ff75",
+    "statusBar.background": "#092119",
+    "statusBar.foreground": "#9da5b4",
+    "statusBarItem.hoverBackground": "#2c313a",
+    "statusBar.noFolderBackground": "#21252B",
+    "statusBar.debuggingBackground": "#32ae85",
+    "statusBar.debuggingBorder": "#32ae85",
+    "statusBar.debuggingForeground": "#d6e9ff",
+    "titleBar.activeForeground": "#9da5b4",
+    "titleBar.inactiveForeground": "#6B717D",
+    "titleBar.inactiveBackground": "#101922",
+    "titleBar.activeBackground": "#101922",
+    "list.activeSelectionBackground": "#65737e30",
+    "list.activeSelectionForeground": "#dfe1e8",
+    "list.inactiveSelectionBackground": "#65737e30",
+    "list.inactiveSelectionForeground": "#dfe1e8",
+    "list.focusBackground": "#65737e30",
+    "list.focusForeground": "#dfe1e8",
+    "list.hoverBackground": "#65737e30",
+    "list.hoverForeground": "#c0c5cd",
+    "list.highlightForeground": "#42675a",
+    "panel.background": "#1d262f",
+    "panel.border": "#181A1F",
+    "scrollbar.shadow": "#282c35",
+    "scrollbarSlider.activeBackground": "#32ae8575",
+    "scrollbarSlider.background": "#32ae8560",
+    "scrollbarSlider.hoverBackground": "#32ae8575",
+    "sideBarSectionHeader.foreground": "#c0c5cd",
+    "editorGroupHeader.tabsBackground": "#1c1f26",
+    "editorGroup.dropBackground": "#1c1f26",
+    "tab.border": "#1c1f26",
+    "tab.activeBackground": "#1d262f",
+    "tab.inactiveBackground": "#1c1f26",
+    "widget.shadow": "#282c35",
+    "pickerGroup.foreground": "#42675a",
+    "pickerGroup.border": "#32ae8575",
+    "focusBorder": "#32ae8575",
+    "progressBar.background": "#32ae8575",
+    "editorLink.activeForeground": "#42675a",
+    "peekView.border": "#32ae8575",
+    "peekViewEditor.matchHighlightBorder": "#32ae8590",
+    "peekViewTitle.background": "#1c1f26",
+    "peekViewTitleDescription.foreground": "#d4d4d4",
+    "peekViewTitleLabel.foreground": "#d4d4d4",
+    "notifications.background": "#282c35",
+    "notifications.border": "#181A1F",
+    "notifications.foreground": "#d4d4d4",
+    "notificationCenterHeader.foreground": "#d4d4d4",
+    "extensionButton.prominentForeground": "#d4d4d4",
+    "extensionButton.prominentBackground": "#32ae85",
+    "extensionButton.prominentHoverBackground": "#42675a",
+    "editorGutter.addedBackground": "#99C794",
+    "editorGutter.deletedBackground": "#E15A60",
+    "editorGutter.modifiedBackground": "#88b4e7",
+    "editorOverviewRuler.modifiedForeground": "#88b4e7",
+    "editorOverviewRuler.addedForeground": "#99C794",
+    "editorOverviewRuler.deletedForeground": "#E15A60",
+    "editorOverviewRuler.errorForeground": "#E15A60",
+    "editorOverviewRuler.warningForeground": "#ffedcb",
+    "editorOverviewRuler.infoForeground": "#6f7899",
+    "gitDecoration.modifiedResourceForeground": "#88b4e7",
+    "gitDecoration.addedResourceForgeround": "#99C794",
+    "gitDecoration.deletedResourceForeground": "#586f89",
+    "gitDecoration.untrackedResourceForeground": "#E15A60",
+    "gitDecoration.conflictingResourceForeground": "#E15A60",
+    "gitDecoration.ignoredResourceForeground": "#586f89",
+    "breadcrumb.foreground": "#c0c5cd",
+    "breadcrumb.focusForeground": "#d6e9ff",
+    "breadcrumb.activeSelectionForeground": "#88b4e7",
+    "breadcrumbPicker.background": "#101922"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#586f89",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Decorator",
+      "scope": [
+        "punctuation.decorator.js",
+        "punctuation.decorator.js.jsx",
+        "punctuation.decorator.ts",
+        "punctuation.decorator.tsx",
+        "meta.decorator.js meta.function-call.js entity.name.function.js",
+        "meta.decorator.js.jsx meta.function-call.js.jsx entity.name.function.js.jsx",
+        "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
+        "meta.decorator.tsx meta.function-call.tsx entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#88b4e7"
+      }
+    },
+    {
+      "name": "Decorator - Function Call",
+      "scope": [
+        "meta.decorator.js meta.function-call.js entity.name.function.js",
+        "meta.decorator.js.jsx meta.function-call.js.jsx entity.name.function.js.jsx",
+        "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
+        "meta.decorator.tsx meta.function-call.tsx entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Reason - Types",
+      "scope": [
+        "source.reason keyword.other",
+        "source.reason storage.type",
+        "source.reason support.class entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Reason - markup",
+      "scope": [
+        "source.reason markup.inserted constant.language support.property-value"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Reason - Function / Class",
+      "scope": ["source.reason support.class entity.name.class"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Reason - String",
+      "scope": ["source.reason string.double"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Reason - Control",
+      "scope": ["source.reason keyword.control.less"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Meta object literal key",
+      "scope": [
+        "source.js meta.object-literal.key.js",
+        "source.js.jsx meta.object-literal.key.js.jsx",
+        "source.ts meta.object-literal.key.ts",
+        "source.tsx meta.object-literal.key.tsx",
+        "source.js variable.object.property.js",
+        "source.js.jsx variable.object.property.js.jsx",
+        "source.ts variable.object.property.ts",
+        "source.tsx variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#5d8cc0"
+      }
+    },
+    {
+      "name": "Support Variable Property",
+      "scope": [
+        "support.variable.property.js",
+        "support.variable.property.js.jsx",
+        "support.variable.property.ts",
+        "support.variable.property.tsx",
+        "support.variable.property.coffee",
+        "source.js support.variable.property",
+        "source.js.jsx support.variable.property",
+        "source.ts support.variable.property",
+        "source.tsx support.variable.property",
+        "source.coffee support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#88b4e7"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "meta.block.js variable.other.constant.property.js",
+        "meta.block.js.jsx variable.other.constant.property.js.jsx",
+        "meta.block.ts variable.other.constant.property.ts",
+        "meta.block.tsx variable.other.constant.property.tsx",
+        "meta.block.coffee variable.other.constant.property.coffee"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "HTML / JSX - Assignments #2",
+      "scope": [
+        "meta.tag.attributes.js meta.var.expr.js keyword.operator.assignment.js",
+        "meta.tag.attributes.js.jsx meta.var.expr.js.jsx keyword.operator.assignment.js.jsx",
+        "meta.tag.attributes.tsx meta.var.expr.tsx keyword.operator.assignment.tsx"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "HTML / JSX - Assignments",
+      "scope": [
+        "meta.tag.attributes.js keyword.operator.assignment.js",
+        "meta.tag.attributes.js.jsx keyword.operator.assignment.js.jsx",
+        "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
+        "meta.tag.any.html"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "graphql",
+      "scope": [
+        "source.js entity.name.function.tagged-template.js",
+        "source.js.jsx entity.name.function.tagged-template.js.jsx",
+        "source.ts entity.name.function.tagged-template.ts",
+        "source.tsx entity.name.function.tagged-template.tsx",
+        "source.coffee entity.name.function.tagged-template.coffee"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "graphql - functions",
+      "scope": [
+        "source.js entity.name.function.graphql",
+        "source.js.jsx entity.name.function.graphql",
+        "source.ts entity.name.function.graphql",
+        "source.tsx entity.name.function.graphql",
+        "source.coffee entity.name.function.graphql",
+        "entity.name.function.graphql"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "graphql - types",
+      "scope": [
+        "source.js support.type.builtin.graphql",
+        "source.js.jsx support.type.builtin.graphql",
+        "source.ts support.type.builtin.graphql",
+        "source.tsx support.type.builtin.graphql",
+        "source.coffee support.type.builtin.graphql",
+        "keyword.operation.graphql",
+        "support.type.builtin.graphql"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "graphql - variables",
+      "scope": [
+        "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.coffee meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "graphql - variable function",
+      "scope": [
+        "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "source.coffee meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "GraphQL - ENF",
+      "scope": ["entity.name.function.directive.graphql"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Flow Typedef",
+      "scope": [
+        "source.js meta.interface.js storage.type.interface.js",
+        "source.js.jsx meta.interface.js.jsx storage.type.interface.js.jsx",
+        "source.js meta.type.declaration.js storage.type.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx storage.type.type.js.jsx",
+        "meta.type.flowtype.js variable.other.flowtype.js",
+        "meta.type.flowtype.js.jsx variable.other.flowtype.js.jsx",
+        "meta.flowtype.polymorph.js variable.other.flowtype.js",
+        "meta.flowtype.polymorph.js.jsx variable.other.flowtype.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Flow - Method return",
+      "scope": [
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js meta.type.function.return.js support.type.primitive.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx meta.type.function.return.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js meta.type.function.return.js support.type.primitive.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx meta.type.function.return.js.jsx support.type.primitive.js.jsx"
+      ],
+      "settings": {}
+    },
+    {
+      "name": "Flow Types - Primitives",
+      "scope": [
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.var.expr.js.jsx meta.var-single-variable.expr.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.class.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.class.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx",
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Flow Types - Objects",
+      "scope": [
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.class.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.class.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.var.expr.js.jsx meta.var-single-variable.expr.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.type.declaration.js meta.type.parameters.js entity.name.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.type.parameters.js.jsx entity.name.type.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "TypeScript Typedef",
+      "scope": [
+        "source.ts meta.interface.ts storage.type.interface.ts",
+        "source.tsx meta.interface.tsx storage.type.interface.tsx",
+        "source.ts meta.type.declaration.ts storage.type.type.ts",
+        "source.tsx meta.type.declaration.tsx storage.type.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TypeScript - Method return",
+      "scope": [
+        "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts meta.type.function.return.ts support.type.primitive.ts",
+        "source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx meta.type.function.return.tsx support.type.primitive.tsx",
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts meta.type.function.return.ts support.type.primitive.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx meta.type.function.return.tsx support.type.primitive.tsx"
+      ],
+      "settings": {}
+    },
+    {
+      "name": "TypeScript - Primitives",
+      "scope": [
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.class.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.class.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.builtin.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.builtin.tsx"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "TypeScript - Objects",
+      "scope": [
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.type.declaration.ts meta.type.parameters.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx meta.type.parameters.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.var.expr.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.var.expr.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.var.expr.ts meta.arrow.ts meta.return.type.arrow.ts entity.name.type.ts",
+        "source.tsx meta.var.expr.tsx meta.arrow.tsx meta.return.type.arrow.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "C# Typedef",
+      "scope": ["keyword.type.cs"],
+      "settings": {
+        "foreground": "#A8A8E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Typedef - Object",
+      "scope": ["source.cs storage.type.cs"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "PHP Typedef",
+      "scope": ["meta.function.parameter.typehinted.php storage.type.php"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "Go Typedef",
+      "scope": ["source.go storage.type"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "PHP Block",
+      "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "Keyword - JavaScript",
+      "scope": [
+        "source.js keyword",
+        "source.js.jsx keyword",
+        "storage.type.js",
+        "storage.type.js.jsx",
+        "storage.type.function.js",
+        "storage.type.function.js.jsx",
+        "storage.modifier.js",
+        "storage.modifier.js.jsx",
+        "meta.type.flowtype.js support.type.type.flowtype.js",
+        "meta.type.flowtype.js.jsx support.type.type.flowtype.js.jsx",
+        "variable.other.flowtype.js",
+        "variable.other.flowtype.js.jsx",
+        "storage.type.extends.js",
+        "storage.type.extends.js.jsx",
+        "storage.type.function.js",
+        "storage.type.function.js.jsx",
+        "storage.type.class.js",
+        "storage.type.class.js.jsx",
+        "support.type.object.module.js",
+        "support.type.object.module.js.jsx",
+        "string.regexp.js keyword",
+        "string.regexp.js.jsx keyword",
+        "constant.language.import-export-all.js",
+        "constant.language.import-export-all.js.jsx",
+        "source.js meta.group.braces.curly.js keyword.other.substitution",
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
+        "keyword.operator",
+        "source.js meta.class.js meta.method.declaration.js storage.type.property.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.type.property.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js storage.modifier.async.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.modifier.async.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js meta.block.js meta.function-call.js variable.language.super.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.language.super.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Coffee",
+      "scope": [
+        "source.coffee keyword",
+        "storage.type.coffee",
+        "storage.type.function.coffee",
+        "storage.modifier.coffee",
+        "meta.type.flowtype.coffee support.type.type.flowtype.coffee",
+        "variable.other.flowtype.coffee",
+        "storage.type.extends.coffee",
+        "storage.type.function.coffee",
+        "storage.type.class.coffee",
+        "support.type.object.module.coffee",
+        "string.regexp.coffee keyword",
+        "constant.language.import-export-all.coffee",
+        "source.coffee meta.group.braces.curly.coffee keyword.other.substitution",
+        "keyword.operator",
+        "source.coffee meta.class.coffee meta.method.declaration.coffee storage.type.property.coffee",
+        "source.coffee meta.class.coffee meta.method.declaration.coffee storage.modifier.async.coffee",
+        "source.coffee meta.class.coffee meta.method.declaration.coffee meta.block.coffee meta.function-call.coffee variable.language.super.coffee"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Block",
+      "scope": [
+        "keyword.operator.type.annotation",
+        "meta.brace.round",
+        "punctuation",
+        "meta.brace.curly.graphql",
+        "meta.brace.square",
+        "meta.brace.curly.coffee"
+      ],
+      "settings": {
+        "foreground": "#586f89"
+      }
+    },
+    {
+      "name": "Keyword - TypeScript",
+      "scope": [
+        "source.ts keyword",
+        "source.tsx keyword",
+        "source.ts storage.modifier",
+        "source.tsx storage.modifer",
+        "storage.type.ts",
+        "storage.type.tsx",
+        "storage.type.function.ts",
+        "storage.type.function.tsx",
+        "storage.type.extends.ts",
+        "storage.type.extends.tsx",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx",
+        "storage.type.class.ts",
+        "storage.type.class.tsx",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "string.regexp.ts keyword",
+        "string.regexp.tsx keyword",
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "source.ts meta.class.ts meta.method.declaration.ts storage.type.property.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx storage.type.property.tsx",
+        "source.ts meta.enum.declaration.ts storage.type.enum.ts",
+        "source.tsx meta.enum.declaration.tsx storage.type.enum.tsx"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - PHP",
+      "scope": [
+        "source.php keyword",
+        "storage.type.php",
+        "storage.type.function.php",
+        "storage.type.extends.php",
+        "storage.type.class.php",
+        "storage.modifier.php",
+        "source.php storage.modifier",
+        "storage.modifier.extends.php",
+        "storage.modifier.implements.php",
+        "source.php meta.group.braces.curly.php keyword.other.substitution",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Dockerfile",
+      "scope": ["source.dockerfile keyword"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Shell Script",
+      "scope": ["source.shell keyword"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - XML",
+      "scope": ["text.xml keyword"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Java Typedef",
+      "scope": ["keyword.type.java"],
+      "settings": {
+        "foreground": "#A8A8E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Java Typedef - Object",
+      "scope": ["source.java storage.type.java"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Java Typedef - Generic",
+      "scope": ["source.java storage.type.generic.java"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Keyword - Java",
+      "scope": ["source.java keyword", "storage.modifier.java"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Annotations - Java",
+      "scope": [
+        "meta.declaration.annotation.java storage.type.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#A8A8E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Annotation Constants - Java",
+      "scope": ["meta.declaration.annotation.java constant.other.key.java"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Var definition - Shell Script",
+      "scope": ["source.shell punctuation.definition.variable.shell"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Keyword - Go",
+      "scope": [
+        "source.go keyword",
+        "storage.modifier.go",
+        "storage.type.go",
+        "storage.type.primitive.go",
+        "storage.type.object.array.go"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Elixir",
+      "scope": [
+        "source.elixir keyword",
+        "storage.modifier.elixir",
+        "storage.type.elixir",
+        "storage.type.primitive.elixir",
+        "storage.type.object.array.elixir"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Punctutaion Property",
+      "scope": [
+        "punctuation.support.type.property-name.begin",
+        "punctuation.support.type.property-name.end"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Variables - Elixir",
+      "scope": [
+        "source.elixir.embedded variable.other.readwrite.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "HTML - Elixir",
+      "scope": ["source.elixir.embedded punctuation.section.embedded.elixir"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Keyword - C#",
+      "scope": [
+        "source.cs keyword",
+        "storage.modifier.cs",
+        "source.cs keyword.control.flow.break.cs"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function Call - JavaScript",
+      "scope": [
+        "source.js support.function",
+        "source.js.jsx support.function",
+        "support.function.js",
+        "support.function.js.jsx",
+        "variable.function.js",
+        "variable.function.js.jsx",
+        "meta.function-call.js entity.name.function.js",
+        "meta.function-call.js.jsx entity.name.function.js.jsx",
+        "meta.method-call.static.js entity.name.function.js",
+        "meta.method-call.static.js.jsx entity.name.function.js.jsx",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.js",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.js.jsx",
+        "variable.function.constructor.js",
+        "variable.function.constructor.js.jsx",
+        "constant.language.import-export-all.js",
+        "constant.language.import-export-all.js.jsx",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.arithmetic.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Function Call - Coffee",
+      "scope": [
+        "source.coffee support.function",
+        "support.function.coffee",
+        "variable.function.coffee",
+        "meta.function-call.coffee entity.name.function.coffee",
+        "meta.method-call.static.coffee entity.name.function.coffee",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.coffee",
+        "variable.function.constructor.coffee",
+        "constant.language.import-export-all.coffee",
+        "keyword.operator.arithmetic.coffee"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Import / Export - all",
+      "scope": [
+        "constant.language.import-export-all.js",
+        "constant.language.import-export-all.js.jsx",
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx",
+        "constant.language.import-export-all.coffee"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function Call - Go",
+      "scope": [
+        "source.go support.function",
+        "support.function.go",
+        "variable.function.go",
+        "keyword.operator.arithmetic.go"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Constant - Gradle",
+      "scope": "source.groovy constant.other.key.groovy",
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function Call - TypeScript",
+      "scope": [
+        "source.ts support.function",
+        "source.tsx support.function",
+        "support.function.ts",
+        "support.function.tsx",
+        "meta.function-call.ts entity.name.function.ts",
+        "meta.function-call.tsx entity.name.function.tsx",
+        "meta.method-call.static.ts entity.name.function.ts",
+        "meta.method-call.static.tsx entity.name.function.tsx",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.ts",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.tsx",
+        "variable.function.constructor.ts",
+        "variable.function.constructor.tsx",
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx",
+        "meta.var.expr.ts new.expr.ts entity.name.type.ts",
+        "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Function Call - PHP",
+      "scope": [
+        "source.php support.function",
+        "variable.function.php",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.php",
+        "variable.function.constructor.php",
+        "meta.method-call.php entity.name.function.php",
+        "meta.method-call.static.php entity.name.function.php",
+        "meta.function-call.php entity.name.function.php",
+        "keyword.operator.arithmetic.php",
+        "support.function.construct.output.php",
+        "support.class.php",
+        "meta.function-call.php support.function.construct.php"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Function Call - Shell Script",
+      "scope": [
+        "source.shell support.function",
+        "keyword.operator.arithmetic.shell"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Variable - XML",
+      "scope": ["text.xml variable.language"],
+      "settings": {
+        "foreground": "#d6e9ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Function Call - Java",
+      "scope": [
+        "source.java support.function",
+        "support.function.java",
+        "meta.function-call.java entity.name.function.java",
+        "meta.method-call.static.java entity.name.function.java",
+        "meta.method-call.java entity.name.function.java",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.java",
+        "variable.function.constructor.java",
+        "keyword.operator.arithmetic.java",
+        "storage.modifier.import.java variable.language.wildcard.java"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "JSON",
+      "scope": ["punctuation.definition.string", "string.quoted.double.json"],
+      "settings": {
+        // "foreground": "#A8A8E6"
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Propertyname",
+      "scope": [
+        "source.css meta.property-name",
+        "source.css support.type.property-name.media",
+        "source.scss meta.property-name",
+        "source.scss support.type.property-name.media",
+        "source.stylus meta.property-name",
+        "source.stylus support.type.property-name.mediae"
+      ],
+      "settings": {
+        "foreground": "#5d8cc0",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Propertyname",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-element",
+        "source.scss entity.other.attribute-name.pseudo-element",
+        "source.stylus entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#32ae85",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Punctuation",
+      "scope": [
+        "source.css punctuation.definition.entity",
+        "source.css punctuation.definition.keyword",
+        "source.css keyword.control.at-rule.media",
+        "source.scss punctuation.definition.entity",
+        "source.scss punctuation.definition.keyword",
+        "source.scss keyword.control.at-rule.media",
+        "source.stylus punctuation.definition.entity",
+        "source.stylus punctuation.definition.keyword",
+        "source.stylus keyword.control.at-rule.media"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Pseudo",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-class.css",
+        "source.css entity.other.attribute-name.pseudo-element",
+        "source.scss entity.other.attribute-name.pseudo-element",
+        "source.scss entity.other.attribute-name.pseudo-class.css",
+        "source.stylus entity.other.attribute-name.pseudo-class.css",
+        "source.stylus entity.other.attribute-name.pseudo-element",
+        "source.css.less entity.other.attribute-name.pseudo-class.css",
+        "source.css.less entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - keyword",
+      "scope": [
+        "keyword.control.at-rule",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.at-rule.import.scss",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.if.scss",
+        "keyword.control.else.scss",
+        "punctuation.definition.keyword.stylus",
+        "keyword.control.stylus",
+        "source.stylus meta.selector.stylus",
+        "source.css.less meta.property-list.css entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SCSS/Styl - Functions",
+      "scope": [
+        "source.css.scss entity.name.function",
+        "source.css.stylus entity.name.function",
+        "source.stylus entity.name.function.stylus"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "LESS - Keyword",
+      "scope": ["source.css.less keyword.control.logical.operator.less"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SCSS/LESS - Function Call",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.property-value.scss variable.scss",
+        "source.css.less meta.property-list.css variable.other.less",
+        "source.css.less meta.property-list.css entity.other.attribute-name.class.mixin.css"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "CSS/SCSS/LESS/Stylus - Punctuation",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css.scss entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.stylus entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css.less entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.css.less entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.scss entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.stylus entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Function Call - C#",
+      "scope": [
+        "source.cs support.function",
+        "support.function.cs",
+        "meta.function-call.cs entity.name.function.cs",
+        "meta.method-call.static.cs entity.name.function.cs",
+        "meta.method-call.cs entity.name.function.cs",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.cs",
+        "variable.function.constructor.cs",
+        "keyword.operator.arithmetic.cs",
+        "storage.modifier.import.cs variable.language.wildcard.cs"
+      ],
+      "settings": {
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "INI - Group",
+      "scope": ["entity.name.section.group-title.ini"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Operator",
+      "scope": ["punctuation.separator.key-value.ini"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Definition",
+      "scope": ["keyword.other.definition.ini"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "INI - Comment",
+      "scope": ["comment.line.number-sign.ini"],
+      "settings": {
+        "foreground": "#6F7899",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": ["markup.heading.markdown"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Markdown - Quote",
+      "scope": ["markup.quote.markdown"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Markdown - Comment",
+      "scope": ["text.html.markdown comment.block.html"],
+      "settings": {
+        "foreground": "#586f89",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": [
+        "text.html.markdown meta.link.inline.markdown",
+        "text.html.markdown meta.image.inline.markdown",
+        "text.html.markdown markup.inline.raw.string.markdown"
+      ],
+      "settings": {
+        // "foreground": "#A8A8E6"
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Function/Class Name - JavaScript",
+      "scope": [
+        "meta.class.js entity.name.class",
+        "meta.class.js.jsx entity.name.class",
+        "meta.class.js entity.name.type.class",
+        "meta.class.js.jsx entity.name.type.class",
+        "meta.class meta.function-call variable.function.js",
+        "meta.class meta.function-call variable.function.js.jsx",
+        "source.js keyword.control.loop.js",
+        "source.js.jsx keyword.control.loop.js.jsx",
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.js.jsx",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js.jsx entity.name.tag.js.jsx",
+        "source.js meta.interface.js entity.name.type.interface.js",
+        "source.js.jsx meta.interface.js.jsx entity.name.type.interface.js.jsx",
+        "source.js meta.type.declaration.js entity.name.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx entity.name.type.js.jsx",
+        "source.js meta.definition.function.js entity.name.function.js",
+        "source.js.jsx meta.definition.function.js.jsx entity.name.function.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function/Class Name - Coffee",
+      "scope": [
+        "meta.class.coffee entity.name.class",
+        "meta.class.coffee entity.name.type.class",
+        "meta.class meta.function-call variable.function.coffee",
+        "source.coffee keyword.control.loop.coffee",
+        "storage.type.function.arrow.coffee",
+        "tag.decorator.coffee entity.name.tag.coffee",
+        "source.coffee meta.interface.coffee entity.name.type.interface.coffee",
+        "source.coffee meta.type.declaration.coffee entity.name.type.coffee",
+        "source.coffee meta.definition.function.coffee entity.name.function.coffee"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function/Class Name #2 - JavaScript",
+      "scope": [
+        "punctuation.decorator",
+        "entity.name.function.js",
+        "entity.name.function.js.jsx",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "entity.name.function.coffee"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Arrow & assignments",
+      "scope": [
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.js.jsx",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.coffee",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Function/Class Name - Go",
+      "scope": ["entity.name.function.go", "source.go keyword.control.loop.go"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function/Class Name - TypeScript",
+      "scope": [
+        "meta.class.ts entity.name.type.class",
+        "meta.class.tsx entity.name.type.class",
+        "meta.class meta.function-call variable.function.ts",
+        "meta.class meta.function-call variable.function.tsx",
+        "source.ts keyword.control.loop.ts",
+        "source.tsx keyword.control.loop.tsx",
+        "source.ts meta.interface.ts entity.name.type.interface.ts",
+        "source.tsx meta.interface.tsx entity.name.type.interface.tsx",
+        "source.ts meta.type.declaration.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function/Class Name - PHP",
+      "scope": [
+        "entity.name.function.php",
+        "meta.class.php entity.name.type.class",
+        "meta.class meta.function-call variable.function.php",
+        "source.php keyword.control.loop.php",
+        "storage.type.function.arrow.php",
+        "support.function.magic.php"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Function/Class Name - Java",
+      "scope": [
+        "meta.method.identifier.java entity.name.function.java",
+        "meta.method.identifier.java storage.type.generic.java",
+        "meta.class meta.function-call variable.function.java",
+        "source.java keyword.control.loop.java",
+        "storage.type.function.arrow.java",
+        "meta.class.identifier.java entity.name.type.class.java"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function/Class Name - C#",
+      "scope": [
+        "meta.method.identifier.cs entity.name.function.cs",
+        "meta.method.identifier.cs storage.type.generic.cs",
+        "meta.class meta.function-call variable.function.cs",
+        "source.cs keyword.control.loop.cs",
+        "storage.type.function.arrow.cs",
+        "meta.class.identifier.cs entity.name.type.class.cs",
+        "source.cs entity.name.function.cs",
+        "source.cs entity.name.type.class.cs"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Function/Class Name - Elixir",
+      "scope": [
+        "source.elixir entity.name.function.elixir",
+        "entity.name.type.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Definition - XML",
+      "scope": [
+        "meta.tag.preprocessor.xml punctuation.definition.tag.xml",
+        "meta.tag.sgml.doctype.xml punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - JavaScript",
+      "scope": [
+        "keyword.control.flow.js",
+        "keyword.control.flow.js.jsx",
+        "keyword.control.trycatch.js",
+        "keyword.control.trycatch.js.jsx",
+        "source.js meta.group.braces.curly.js keyword.control.loop.js",
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.control.loop.js.jsx",
+        "source.js meta.export.default.js keyword.control.default.js",
+        "source.js.jsx meta.export.default.js.jsx keyword.control.default.js.jsx",
+        "keyword.control.switch.js",
+        "keyword.control.switch.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - Coffee",
+      "scope": [
+        "keyword.control.flow.coffee",
+        "keyword.control.trycatch.coffee",
+        "source.coffee meta.group.braces.curly.coffee keyword.control.loop.coffee",
+        "source.coffee meta.export.default.coffee keyword.control.default.coffee",
+        "keyword.control.switch.coffee"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - TypeScript",
+      "scope": [
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx",
+        "source.ts meta.group.braces.curly.ts keyword.control.loop.ts",
+        "source.tsx meta.group.braces.curly.tsx keyword.control.loop.tsx",
+        "source.ts meta.export.default.ts keyword.control.default.ts",
+        "source.tsx meta.export.default.tsx keyword.control.default.tsx",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - php",
+      "scope": [
+        "keyword.control.flow.php",
+        "keyword.control.trycatch.php",
+        "source.php meta.group.braces.curly.php keyword.control.loop.php",
+        "keyword.control.switch.php"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script 2",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell meta.scope.if-block.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell meta.scope.if-block.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Java",
+      "scope": [
+        "keyword.control.flow.java",
+        "keyword.control.trycatch.java",
+        "source.java meta.group.braces.curly.java keyword.control.loop.java",
+        "keyword.control.switch.java"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - C#",
+      "scope": [
+        "source.cs keyword.control.flow",
+        "keyword.control.trycatch.cs",
+        "source.cs meta.group.braces.curly.cs keyword.control.loop.cs",
+        "source.cs keyword.control.switch.cs"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Control Flow - Elixir",
+      "scope": ["keyword.control.elixir"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Java italic",
+      "scope": ["keyword.control.java"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Logic - JavaScript",
+      "scope": [
+        "keyword.operator.logical.js",
+        "keyword.operator.logical.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Logic - Coffee",
+      "scope": ["keyword.operator.logical.coffee"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Logic - TypeScript",
+      "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Logic - Go",
+      "scope": ["source.go keyword.operator.assignment.go"],
+      "settings": {
+        "foreground": "#34febb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Logic - PHP",
+      "scope": [
+        "source.php keyword.operator",
+        "punctuation.separator.inheritance.php"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Logic - Shell",
+      "scope": ["source.shell meta.scope.logical-expression.shell"],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Variables & Braces - Shell",
+      "scope": [
+        "source.shell punctuation.definition.logical-expression.shell",
+        "source.shell variable.other",
+        "source.shell variable.other.normal.shell"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "HTML Tag names",
+      "scope": [
+        "entity.name.tag support.class.component",
+        "meta.tag.other.html",
+        "meta.tag.other.js",
+        "meta.tag.other.js.jsx",
+        "meta.tag.other.tsx",
+        "entity.name.tag.tsx",
+        "entity.name.tag.js.jsx",
+        "entity.name.tag.js",
+        "entity.name.tag",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
+      "name": "Template Strings",
+      "scope": [
+        "keyword.other.template.begin",
+        "keyword.other.template.end",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end"
+      ],
+      "settings": {
+        // "foreground": "#34febb"
+        "foreground": "#32ae85"
+      }
+    },
+    {
+      "name": "Template Strings - Elixir",
+      "scope": [
+        "source.elixir string.quoted.double.elixir source.elixir.embedded.source punctuation.section.embedded.elixir"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Template Strings Code - Elixir",
+      "scope": [
+        "source.elixir string.quoted.double.elixir source.elixir.embedded.source"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string.quoted", "string.interpolated"],
+      "settings": {
+        // "foreground": "#A8A8E6"
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Literal",
+      "scope": [
+        "constant.language",
+        "constant.numeric",
+        "support.constant",
+        "constant.character",
+        "constant.other.color",
+        "constant.other.symbol",
+        "constant.other.key",
+        "keyword.other.unit",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#34febb"
+      }
+    },
+    {
+      "name": "Inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#99C794"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#E15A60"
+      }
+    },
+    {
+      "name": "Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#BB80B3"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": "*url*, *link*, *uri*",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Search Results Nums",
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "settings": {
+        "foreground": "#AB7967"
+      }
+    },
+    {
+      "name": "Search Results Lines",
+      "scope": "entity.name.filename.find-in-files",
+      "settings": {
+        "foreground": "#99C794"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#6796e6"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#b267e6"
+      }
+    },
+    {
+      "name": "Other attribute names",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#5d8cc0"
+      }
+    },
+    {
+      "name": "Italic font style",
+      "scope": [
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "meta.tag.sgml.doctype.html",
+        "markup.italic.markdown",
+        "markup.quote.markdown",
+        "support.type.primitive",
+        "entity.other.attribute-name",
+        "entity.name.tag.custom",
+        "source.js entity.other.attribute-name.js",
+        "source.js.jsx entity.other.attribute-name.js",
+        "ext.html.basic entity.other.attribute-name.html",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "variable.assignment.coffee",
+        "support.function.basic_functions",
+        "keyword.operator.type.annotation",
+        "assignment.coffee",
+        "italic",
+        "quote",
+        "type .function",
+        "type.function",
+        "storage.modifier.js",
+        "storage.modifier.js.jsx",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.modifier.php",
+        "storage.type.class",
+        "modifier",
+        "keyword.control.flow",
+        "source.shell keyword.control.shell",
+        "keyword.control.default",
+        "keyword.control.switch",
+        "this",
+        "support.type.builtin",
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Normal font style",
+      "scope": [
+        "meta.interface.ts variable.object.property",
+        "meta.interface.tsx variable.object.property",
+        "meta.type.declaration.ts variable.object.property",
+        "meta.type.declaration.tsx variable.object.property",
+        "meta.function.parameter.typehinted.php storage.type.php",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "source.js meta.group.braces.curly.js keyword.other.substitution",
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
+        "keyword.operator.type.annotation",
+        "keyword.operator.type",
+        "keyword.operator.logical",
+        "source.php keyword.operator",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "keyword.operator.class.php",
+        "support.function.basic_functions.php",
+        "keyword.operator.flowtype.other.js",
+        "keyword.operator.flowtype.other.js.jsx",
+        "source.shell keyword.operator",
+        "keyword.operator.ternary.js",
+        "keyword.operator.ternary.js.jsx",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.ternary.tsx",
+        "source.reason keyword.operator",
+        "source.js meta.group.regexp keyword.operator",
+        "source.js.jsx meta.group.regexp keyword.operator",
+        "source.ts meta.group.regexp keyword.operator",
+        "source.tsx meta.group.regexp keyword.operator",
+        "string.regexp.js keyword.control.anchor.regexp",
+        "string.regexp.js.jsx keyword.control.anchor.regexp",
+        "string.regexp.ts keyword.control.anchor.regexp",
+        "string.regexp.tsx keyword.control.anchor.regexp",
+        "keyword.operator.other.elixir",
+        "keyword.operator.assignment.go"
+      ],
+      "settings": {
+        "fontStyle": "normal"
+      }
+    }
+  ]
+}
