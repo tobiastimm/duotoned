@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.2
+
+- Fix variable scope colors
+
 ## 1.0.1
 
 - Fix for missing panel border

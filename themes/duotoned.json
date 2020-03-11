@@ -240,6 +240,12 @@
       }
     },
     {
+      "scope": ["entity.name.variable"],
+      "settings": {
+        "foreground": "#eeebff"
+      }
+    },
+    {
       "name": "graphql",
       "scope": [
         "source.js entity.name.function.tagged-template.js",

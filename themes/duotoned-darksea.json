@@ -198,6 +198,12 @@
       }
     },
     {
+      "scope": ["entity.name.variable"],
+      "settings": {
+        "foreground": "#d6e9ff"
+      }
+    },
+    {
       "name": "Meta object literal key",
       "scope": [
         "source.js meta.object-literal.key.js",

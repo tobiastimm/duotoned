@@ -1,42 +1,47 @@
 {
-  "name": "duotoned",
-  "displayName": "Duotoned",
-  "description": "Duotoned is an opinionated version of the duotone syntax for vscode",
-  "license": "MIT",
-  "version": "1.0.1",
-  "publisher": "TobiasTimm",
-  "preview": false,
-  "engines": {
-    "vscode": "^1.22.0"
-  },
-  "keywords": [
-    "theme",
-    "duotone",
-    "syntax",
-    "dark"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tobiastimm/duotoned.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tobiastimm/duotoned/issues"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Duotoned",
-        "uiTheme": "vs-dark",
-        "path": "./themes/duotoned.json"
-      },
-      {
-        "label": "Duotoned - darkSEA",
-        "uiTheme": "vs-dark",
-        "path": "./themes/duotoned-darksea.json"
-      }
-    ]
-  }
+	"name": "duotoned",
+	"displayName": "Duotoned",
+	"description": "Duotoned is an opinionated version of the duotone syntax for vscode",
+	"license": "MIT",
+	"version": "1.0.1",
+	"publisher": "TobiasTimm",
+	"preview": false,
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"keywords": [
+		"theme",
+		"duotone",
+		"syntax",
+		"dark"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tobiastimm/duotoned.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tobiastimm/duotoned/issues"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Duotoned",
+				"uiTheme": "vs-dark",
+				"path": "./themes/duotoned.json"
+			},
+			{
+				"label": "Duotoned - darkSEA",
+				"uiTheme": "vs-dark",
+				"path": "./themes/duotoned-darksea.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6acf0b6b-2d50-4cf9-bdd2-86b4085bccb5",
+		"publisherDisplayName": "Tobias Timm",
+		"publisherId": "5e0244e1-b94f-4e44-8cdc-1397334a044f"
+	}
 }
